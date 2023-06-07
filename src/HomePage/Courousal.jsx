@@ -8,7 +8,7 @@ function Courousal() {
     setIndex(selectedIndex);
   };
   return (
-    <div>  
+    <div  className='carouselEntry'>  
     <Carousel activeIndex={index} onSelect={handleSelect} variant="dark" className='carousel'>
       <Carousel.Item className='carouselitem'>
         <img
