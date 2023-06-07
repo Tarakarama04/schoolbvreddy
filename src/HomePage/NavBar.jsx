@@ -5,7 +5,7 @@ function NavBar() {
   return (  
     <Navbar collapseOnSelect expand="lg" bg="light" variant="white">
       <Container>
-        <img src='./images/logo.png' alt='logo'/>
+        <img src='./images/logo.png' className="logo" alt='logo'/>
         <Navbar.Brand >B.V Reddy School</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
