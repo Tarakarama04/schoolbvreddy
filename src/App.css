@@ -4,6 +4,7 @@
 .carousel{
   width: 100%;
   height :30% !important;
+
 }
 .carouselEntry
 {
@@ -35,7 +36,23 @@
 .gridPageImage{
   align-items:center ;
   width: 70%;
+  border-radius: 50%;
+  background-color: palevioletred;
+  border-color:palevioletred ;
   
+}
+.imagealign{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.picturesbox{
+	height: 30em;
+}
+.carousalimage{
+	width: 100%;
+	
+	box-sizing: border-box;
 }
 .text{
   font-size: 79%;
@@ -45,12 +62,34 @@
 {
   width:4%;
 }
+.divbox{
+	height: 100%;
+	width: 100%;
+	background-color: palevioletred;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bolder;
+}
+.col4image{
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+}
+.col2image{
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+}
 .madam
 {
-  width: 75%;
+  width: 100%;
 }
+
 .text1{
+	padding-top: 20%;
   font:italic;
+  font-weight: bolder;
 }
 /* .containermadam{
   background-image: url("./images/F29A9496.JPG");
