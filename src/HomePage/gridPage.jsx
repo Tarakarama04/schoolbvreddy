@@ -100,19 +100,19 @@ import { useState } from 'react';
   <div class='container'>
     <div class='row'>
       <div class='col'>
-      <Row>
+      
         <Col className='rowitems'><h3>Experienced Teachers</h3>
-          <p className='text'>soijwej welkjwej lkjkjowej oijnksndksnd</p>
+          <p className='text'>World class faculty to teach and prepare children for future </p>
         </Col>
-         <Col className='imagealign'><img src='./images/Teacher.jpg' alt='girls' className='gridPageImage'/></Col>
-      </Row>
+         <Col class='col-4'><img src='./images/Teacher.jpg' alt='girls' className='gridPageImage'/></Col>
+      
       </div>
       <div class='col-6'>
       <Carousel   >
         <Carousel.Item >
           <img
             className="d-block w-100 "
-            src="./images/AB6I1043.jpg"
+            src="./images/IMG-20220818-WA0138.jpg"
             alt="First slide"
       
           />
@@ -120,40 +120,38 @@ import { useState } from 'react';
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./images/F29A9495.jpg"
+            src="./images/IMG20220228104340_01.jpg"
             alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./images/AB6I1043.jpg"
+            src="./images/IMG20220815094327_01.jpg"
             alt="Third slide"/>
         </Carousel.Item>
       </Carousel>    
       </div>
       <div class='col'>
-      <Row>
+      
         <Col className='rowitems'><h3>Delicious food</h3>
-      <p className='text'>soijwej welkjwej lkjkjowej oijnksndksnd</p>
+      <p className='text'>Best and healthy food in hostel to maintain healthy body and brain</p>
         </Col>
-        <Col className='imagealign'> <img src='./images/Teacher.jpg' alt='girls' className='gridPageImage'/> </Col>
-     </Row>
+        <Col class='col-4'> <img src='./images/Teacher.jpg' alt='girls' className='gridPageImage'/> </Col>
+     
       </div>
     </div>
     <div class='row'>
       <div class='col'>
-      <Row>
-       
             <Col className='rowitems'><h3>A/C Residential campus</h3>
-             <p className='text'>soijwej welkjwej lkjkjowej oijnksndksnd</p>
+             <p className='text'>High level Central Ac and advanced classrooms to create best Environment</p>
             </Col>
-            <Col className='imagealign'> <img src='./images/AC.png' alt='girls' className='gridPageImage'/> </Col>
-         </Row>
+            <Col class='col-4'> <img src='./images/AC.png' alt='girls' className='gridPageImage'/> </Col>
+  
       </div>
       <div class='col-4'>
       <img
             className="col4image"
-            src="./images/C3750T01.jpg"
+            src="./images/IMG-20221203-WA0025.jpg"
             alt="First slide"
             
           />
@@ -172,32 +170,28 @@ import { useState } from 'react';
           </div>
       </div>
       <div class='col'>
-      <Row>
+      
         <Col className='rowitems'><h3>Delicious food</h3>
-      <p className='text'>soijwej welkjwej lkjkjowej oijnksndksnd</p>
+      <p className='text'>Best and healthy food in hostel to maintain healthy body and brain</p>
         </Col>
-        <Col className='imagealign'> <img src='./images/AC.png' alt='girls' className='gridPageImage'/> </Col>
-     </Row>
+        <Col class='col-4'> <img src='./images/AC.png' alt='girls' className='gridPageImage'/> </Col>
       </div>
     </div>
     <div class='row'>
       <div class='col'>
-      <Row>
         <Col className='rowitems'><h3>Delicious food</h3>
-      <p className='text'>soijwej welkjwej lkjkjowej oijnksndksnd</p>
+      <p className='text'>Best and healthy food in hostel to maintain healthy body and brain</p>
         </Col>
-        <Col className='imagealign'> <img src='./images/AC.png' alt='girls' className='gridPageImage'/> </Col>
-     </Row>
-
+        <Col class='col-4'> <img src='./images/AC.png' alt='girls' className='gridPageImage'/> </Col>
       </div>
-      <div class='col-3'>
+      <div class='col-3' >
       <img
-            className="d-block w-100"
+            className="d-block w-100 h-100"
             src="./images/C3750T01.jpg"
             alt="Third slide"/>
       </div>
       <div class='col-3'>
-      <Carousel >
+      {/* <Carousel >
         
         <Carousel.Item>
           <img
@@ -211,15 +205,15 @@ import { useState } from 'react';
             src="./images/C3750T01.jpg"
             alt="Third slide"/>
         </Carousel.Item>
-      </Carousel>    
+      </Carousel>     */}
+      <img  class="d-block w-100 h-100"  className='col3image' src='./images/DSC06400.jpg' alt='image'/>
       </div>
       <div class='col'>
-      <Row>
-        <Col className='rowitems'><h3>Delicious food</h3>
-      <p className='text'>soijwej welkjwej lkjkjowej oijnksndksnd</p>
+        <Col className='rowitems'><h3>Transportation</h3>
+      <p className='text'>Best transport facility to students to reach the school safely</p>
         </Col>
-        <Col className='imagealign'> <img src='./images/AC.png' alt='girls' className='gridPageImage'/> </Col>
-     </Row>
+        <Col class='col-4'> <img src='./images/AC.png' alt='girls' className='gridPageImage'/> </Col>
+     
       </div>
     </div>
   </div>

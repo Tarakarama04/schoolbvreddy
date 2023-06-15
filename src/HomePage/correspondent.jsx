@@ -22,7 +22,7 @@ function Correspondent() {
 //                 </Col>
 //             </Row>
 //   </Container>
-  <div >
+  <div className='containermadam'>
     <div class='row'>
         <div class='col-6'>
                  <img src='./images/Madam.jpg' className='madam' />
